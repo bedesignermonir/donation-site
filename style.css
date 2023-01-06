@@ -1,0 +1,27 @@
+.header-section {
+    text-align: center;
+    background-image: url(images/donation0.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    color: white;
+
+}
+
+.overlay {
+    background-image: linear-gradient(360deg, black, rgba(0, 0, 0, 0));
+    opacity: 2.5;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+header {}
+
+.primary-button {
+    background-color: #F1585C;
+}
