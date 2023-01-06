@@ -20,8 +20,13 @@
 
 }
 
-header {}
-
 .primary-button {
     background-color: #F1585C;
+}
+
+.donate-today {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
