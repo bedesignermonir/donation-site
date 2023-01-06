@@ -6,6 +6,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donation Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -27,13 +30,17 @@
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolorem natus veniam corporis
                 inventore
                 deserunt ex excepturi labore quas consequuntur?</p>
-            <div class="amount">100tk</div>
-            <div class="amount">200tk</div>
-            <div class="amount">500tk</div>
-            <div class="amount">1000tk</div>
-            <div class="amount">5000tk</div>
+            <ul class="donation-button">
+                <li><button>100tk</button></li>
+                <li><button class="active-button">200tk</button></li>
+                <li><button>500tk</button></li>
+                <li><button>1000tk</button></li>
+                <li><button>5000tk</button></li>
+            </ul>
             <h4>Other Amount (Taka)</h4>
+            <br><br>
             <hr>
+            <br>
             <button class="primary-button">Donate Now</button>
         </div>
     </section>
