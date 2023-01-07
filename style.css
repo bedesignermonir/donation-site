@@ -88,3 +88,41 @@
 .custom-donation {
     border: none;
 }
+
+.donation-text {
+    text-align: center;
+
+}
+
+.donation-plan-seciton {
+    margin: 50px 0px;
+}
+
+.donation-plan {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.dnb {
+    border-radius: 5px;
+    width: 300px;
+    height: 250px;
+    padding: 50px 10px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.donation-plan-1 {
+    background-color: #EBF2F3;
+}
+
+.donation-plan-2 {
+    background-color: #FDECE8;
+}
+
+.donation-plan-3 {
+    background-color: #FDF6D8;
+}
