@@ -157,3 +157,33 @@
 .align-img-2 {
     float: right;
 }
+
+.update-seciton {
+    text-align: center;
+    padding: 0px 300px;
+    margin: 50px 0px;
+}
+
+.email-box {
+    background-color: #FDF6D8;
+    padding: 30px 50px;
+}
+
+.email-input {
+    border: none;
+    background-color: lightgray;
+    color: gray;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    position: relative;
+    left: 10px;
+}
+
+.email-box button {
+    z-index: 1;
+    position: absolute;
+}
