@@ -187,3 +187,18 @@
     z-index: 1;
     position: absolute;
 }
+
+footer {
+    text-align: center;
+
+    background-color: black;
+    color: white;
+    padding: 20px 0px;
+
+}
+
+.stylish-text {
+    font-family: 'Leckerli One', cursive;
+    color: #F1585C;
+    font-size: 50px;
+}
