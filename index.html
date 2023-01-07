@@ -6,6 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Donation Site</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;700;800&family=Poppins:wght@200&family=Raleway:wght@700;800;900&display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 
@@ -20,24 +25,29 @@
 
         </header>
     </section>
-
+    <!-- Header Section Finished -->
     <section class="donate-today">
         <div class="donate-items">
             <h1>Donate today</h1>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus dolorem natus veniam corporis
                 inventore
                 deserunt ex excepturi labore quas consequuntur?</p>
-            <div class="amount">100tk</div>
-            <div class="amount">200tk</div>
-            <div class="amount">500tk</div>
-            <div class="amount">1000tk</div>
-            <div class="amount">5000tk</div>
-            <h4>Other Amount (Taka)</h4>
+            <ul class="donation-tk-list">
+                <li><button class="donation-button">100tk</button></li>
+                <li><button class=" active-db">200tk</button></li>
+                <li><button class="donation-button">500tk</button></li>
+                <li><button class="donation-button">1000tk</button></li>
+                <li><button class="donation-button">2000tk</button></li>
+            </ul>
+            <input class="custom-donation" type="number" placeholder="Other Amount (Taka)">
             <hr>
             <button class="primary-button">Donate Now</button>
         </div>
     </section>
+    <!-- donation section finished -->
+    <section class="donation-plan">
 
+    </section>
 </body>
 
 </html>

@@ -1,3 +1,9 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
 .header-section {
     text-align: center;
     background-image: url(images/donation0.jpg);
@@ -20,8 +26,17 @@
 
 }
 
+
 .primary-button {
     background-color: #F1585C;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
 }
 
 .donate-today {
@@ -29,4 +44,47 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+}
+
+.donate-items {
+    width: 600px;
+
+}
+
+.donation-tk-list {
+    display: flex;
+    justify-content: space-around;
+}
+
+.donation-tk-list li {
+    list-style: none;
+}
+
+.donation-button {
+    height: 100px;
+    width: 100px;
+    /* margin: 10px; */
+    border: none;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.active-db {
+    border: 2px solid #F1585C;
+    height: 100px;
+    width: 100px;
+    /* margin: 10px; */
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    background-color: #f1585d23;
+}
+
+.custom-donation {
+    border: none;
 }
