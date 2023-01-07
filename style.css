@@ -126,3 +126,34 @@
 .donation-plan-3 {
     background-color: #FDF6D8;
 }
+
+.contribution-left {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    justify-items: center;
+    margin: 20px 0px;
+}
+
+.contribution-left-text {
+    padding: 0px 100px;
+
+}
+
+.con-img {
+    width: 50%;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+
+}
+
+.align-img-1 {
+    float: left;
+}
+
+.align-img-2 {
+    float: right;
+}
